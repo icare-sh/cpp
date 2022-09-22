@@ -2,5 +2,5 @@
 Cpp project for Second year
 
 ## Exercises to do
-- [ ] Is Prime
+- [x] Is Prime
 - [x] Find Motive

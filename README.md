@@ -1,5 +1,5 @@
 # cpp
-Cpp project for Second year
+Cpp project and exercises for Second year
 
 ## Exercises to do
 - [x] Is Prime

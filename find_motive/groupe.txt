@@ -1,0 +1,6 @@
+
+Corec groupe 39,   Salut !
+
+On a regardé ton code.
+Il y a plusieurs problèmes, pour ton exo is_prime impossible d'utiliser le echo ( essayer sur bash et zsh ) comme tu voix dans la capture, j'ai testé avec mon code ça ne vient pas de mon pc.
+Pour l'exo find, il te manque à chaque fois une occurence.

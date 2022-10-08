@@ -1,26 +1,20 @@
-#include <iostream>
-#include <iosfwd>
+include <iostream>
 #include <fstream>
 
-using namespace std;
-int main(int argc , char *argv[])
+int main(int argc, char *argv[])
 {
-    ifstream file(argv[1]);
-    if(!file.is_open())
-    {
-        cout << "The file *" << argv[1] << "* could not be opened" << endl;
+    std::ifstream file;
+    file.open(argv[1]);
+    if (file.fail()) {
+        std::cout << "The file " << argv[1] << " could not be opened.\n";
         return 1;
     }
-    string line;
+    std::string w;
     int count = 0;
-    while(file >> line)
+    while(file >> w)
     {
-        if(line.find(argv[2]) != string::npos)
-        {
+        if(w.find(argv[2]) != std::string::npos)
             count++;
-        }
     }
-        
-    cout << "The file *" << argv[1] << "* contains *"<< count << "* words containing the motive *" << argv[2] << "*"<< endl;
+    std::cout << "The file " << argv[1] << " contains " << count << " words containing the motive "<< argv[2] <<"\n";
     return 0;
-}

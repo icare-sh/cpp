@@ -1,4 +1,4 @@
-include <iostream>
+#include <iostream>
 #include <fstream>
 
 int main(int argc, char *argv[])
@@ -18,3 +18,4 @@ int main(int argc, char *argv[])
     }
     std::cout << "The file " << argv[1] << " contains " << count << " words containing the motive "<< argv[2] <<"\n";
     return 0;
+}

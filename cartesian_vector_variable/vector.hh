@@ -41,6 +41,8 @@ private:
 // Private Member functions here (if necessary)
 
 // Member variables are ALWAYS private, and they go here
+    size_t N;
+    std::unique_ptr<value[]> data;
 };
 
 // Nonmember function operators go here

@@ -5,4 +5,4 @@ Cpp project and exercises for Second year
 - [x] Is Prime
 - [x] Find Motive
 - [x] cartesian_vector_param
-- [ ] cartesian_vector_variable
+- [x] cartesian_vector_variable

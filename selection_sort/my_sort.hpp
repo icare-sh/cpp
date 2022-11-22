@@ -12,6 +12,8 @@ void my_selection_sort( CONT begin,CONT end) {
                 min = j;
             }
         }
-        std::swap(*i, *min);
+        auto tmp = *i;
+        *i = *min;
+        *min = tmp;
     }
 }
